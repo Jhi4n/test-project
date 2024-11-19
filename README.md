@@ -30,3 +30,13 @@ DB_USER=root
 DB_PASSWORD=root
 DB_NAME=ticket_reservation
 JWT_SECRET=secret123
+```
+
+### **Comandos de Docker y Docker Compose`**
+
+Ejecuta este comando para construir las imágenes y levantar los servicios:
+
+```docker
+docker-compose up --build
+
+```
